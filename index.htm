@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="container" id="container">
+        <h2>Welcome to the quiz game</h2>
+        <button class="start_button" id="start_button">Start quiz</button>
+    </div>
+    <div class="question_container active" id="question_container">
+        <div class="question_details">
+            <p>Question <span id="question_number">0</span> out of <span id="total_questions">10</span></p>
+            <p>Score <span id="score">0</span></p>
+        </div>
+        <div class="questions" id="questions">
+        </div>
+    </div>
+    <div class="results_container active">
+        <h2>Results</h2>
+        <h3>Score <span id="total_score">10</span> out of <span id="final_score">10</span></h3>
+        <button class="restart" id="restart">Restart quiz</button>
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
